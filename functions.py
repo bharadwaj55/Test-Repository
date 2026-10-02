@@ -14,7 +14,11 @@ def factorial(n):
         result = result * i
     return result
 
+def subtract(a, b):
+    return a - b
+
 
 print(greet("Alice"))
 print("2 + 3 =", add(2, 3))
 print("5! =", factorial(5))
+print("10 - 5 =", subtract(10, 5))
