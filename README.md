@@ -79,3 +79,12 @@ d01f8b1 HEAD@{3}: commit: feature-1 added multiply function in functions.py file
 f196ba7 (origin/main, origin/HEAD, main) HEAD@{6}: checkout: moving from main to feature-1
 f196ba7 (origin/main, origin/HEAD, main) HEAD@{7}: clone: from https://github.com/bharadwaj55/Test-Repository.git
 ```
+
+### 7. Pull request
+
+After pushing `feature-1` to GitHub, a pull request (PR) was raised to merge the changes from `feature-1` into `main`.
+
+1. Opened the repository on GitHub and click **Compare & pull request** for `feature-1`.
+2. Set the base branch to `main` and the compare branch to `feature-1`.
+3. Added the title "Added python task files", then click **Create pull request**.
+4. Review the changes and click **Merge pull request** to merge `feature-1` into `main`.
