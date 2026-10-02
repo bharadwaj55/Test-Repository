@@ -22,3 +22,6 @@ print("concatenate:", s + " and powerful")
 
 name = "Alice"
 print(f"f-string: Hello, {name}!")
+
+word = "level"
+print("is palindrome:", word == word[::-1])
