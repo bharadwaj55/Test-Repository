@@ -32,3 +32,9 @@ print("'kiwi' in list:", "kiwi" in fruits)
 
 squares = [n * n for n in range(1, 6)]
 print("comprehension:", squares)
+
+evens = [n for n in range(1, 11) if n % 2 == 0]
+print("even numbers:", evens)
+
+nums = [4, 8, 15, 16, 23, 42]
+print("sum:", sum(nums), "| min:", min(nums), "| max:", max(nums))
