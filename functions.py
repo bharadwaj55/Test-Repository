@@ -26,3 +26,8 @@ print("2 + 3 =", add(2, 3))
 print("5! =", factorial(5))
 print("10 - 5 =", subtract(10, 5))
 print("4 * 6 =", multiply(4, 6))
+
+def is_even(n):
+    return n % 2 == 0
+
+print("4 is even:", is_even(4))
